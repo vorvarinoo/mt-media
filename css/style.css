@@ -2922,12 +2922,12 @@ body input:focus {
 
 @media (min-width: 998px) {
   .offer__title.new-offer__title {
-    font-size: 64px;
+    font-size: 54px;
     margin-bottom: 26px;
   }
 
   .offer__subtitle.new-offer__subtitle {
-    font-size: 48px;
+    font-size: 38px;
     margin-bottom: 35px;
   }
 
@@ -3032,7 +3032,7 @@ body input:focus {
   margin: 0;
   padding: 0 24px;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 @media (min-width: 768px) {
@@ -3050,7 +3050,7 @@ body input:focus {
   }
 
   .benefits__item h3 {
-    font-size: 32px;
+    font-size: 26px;
   }
 }
 
@@ -3076,7 +3076,7 @@ body input:focus {
 .cost__title {
   margin: 0;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 24px;
   color: #fff;
   margin-bottom: 8px;
 }
@@ -3084,7 +3084,7 @@ body input:focus {
 .cost__subtitle {
   margin: 0;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   background: linear-gradient(180deg, #ffbc3a 40%, rgba(255, 188, 58, 0) 100%);
   background-clip: text;
@@ -3142,7 +3142,7 @@ body input:focus {
 .cost__item span {
   color: #777;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.25;
 }
 
@@ -3180,13 +3180,13 @@ body input:focus {
 
   .cost__title {
     text-align: center;
-    font-size: 48px;
+    font-size: 42px;
     margin-bottom: 34px;
   }
 
   .cost__subtitle {
     text-align: center;
-    font-size: 34px;
+    font-size: 28px;
     margin: 0 auto 58px;
   }
 
@@ -3217,12 +3217,12 @@ body input:focus {
   }
 
   .cost__item h3 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .cost__item span {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 
@@ -3237,7 +3237,7 @@ body input:focus {
 .integration__title {
   margin: 0;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 24px;
   background: linear-gradient(180deg, #ffbc3a 40%, rgba(255, 188, 58, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -3264,7 +3264,7 @@ body input:focus {
   border-radius: 4px;
   background: #f5b538;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   min-width: 20px;
   height: 24px;
@@ -3283,8 +3283,8 @@ body input:focus {
 
 .integration__card {
   position: relative;
-  min-width: 312px;
-  min-height: 217px;
+  min-width: 260px;
+  min-height: 190px;
   padding: 2px 0;
   border-radius: 33px;
   overflow: hidden;
@@ -3323,13 +3323,13 @@ body input:focus {
   }
 
   .integration__title {
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 85px;
   }
 
   .integration__list {
     grid-template-columns: repeat(2, 1fr);
-    gap: 65px;
+    gap: 40px;
   }
 
   .integration__item {
@@ -3337,7 +3337,7 @@ body input:focus {
   }
 
   .integration__num {
-    font-size: 36px;
+    font-size: 28px;
     background: transparent;
   }
 
@@ -3354,11 +3354,11 @@ body input:focus {
   }
 
   .integration__card-cont {
-    font-size: 32px;
+    font-size: 24px;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1170px) {
   .integration__list {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -3425,7 +3425,7 @@ body input:focus {
 .why__title {
   margin: 0;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 24px;
   background: linear-gradient(180deg, #ffbc3a 40%, rgba(255, 188, 58, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -3464,7 +3464,7 @@ body input:focus {
 
   .why__title {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 34px;
     margin-bottom: 57px;
   }
 
@@ -3475,7 +3475,7 @@ body input:focus {
 
   .why__list {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
@@ -3548,7 +3548,7 @@ body input:focus {
 .free-consultation__title {
   margin: 0;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 24px;
   background: linear-gradient(180deg, #ffbc3a 40%, rgba(255, 188, 58, 0) 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -3606,7 +3606,7 @@ body input:focus {
   }
 
   .free-consultation__title {
-    font-size: 36px;
+    font-size: 34px;
     margin-bottom: 58px;
   }
 
@@ -3621,7 +3621,7 @@ body input:focus {
   }
 
   .free-consultation__btn {
-    font-size: 24px;
+    font-size: 22px;
     padding: 16px 20px;
   }
 
