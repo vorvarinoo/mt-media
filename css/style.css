@@ -417,10 +417,6 @@ body input:focus {
   padding: 135px 0 10px;
 }
 
-.offer--pb {
-  padding-bottom: 0;
-}
-
 .offer__cols {
   display: flex;
 }
@@ -2839,6 +2835,11 @@ body input:focus {
   font-weight: 400px;
 }
 
+.offer.new-offer {
+  padding-top: 135px;
+  padding-bottom: 0;
+}
+
 .offer__left.new-offer__cont {
   max-width: 100%;
   padding: 0;
@@ -2895,6 +2896,11 @@ body input:focus {
 }
 
 @media (min-width: 998px) {
+  .offer.new-offer {
+    padding-top: 170px;
+    padding-bottom: 0;
+  }
+
   .offer__title.new-offer__title {
     font-size: 54px;
     margin-bottom: 26px;
