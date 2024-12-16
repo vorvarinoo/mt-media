@@ -15,7 +15,7 @@
   font-family: "MontSB";
   src: url("../fonts/Mont/MontSemiBold.woff2") format("woff2"),
     url("../fonts/Mont/MontSemiBold.woff") format("woff");
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -25,30 +25,6 @@
   src: url("../fonts/Oswald/OswaldExtraLight.woff2") format("woff2"),
     url("../fonts/Oswald/OswaldExtraLight.woff") format("woff");
   font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "inter";
-  src: url("../fonts/Inter/interRegular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "inter";
-  src: url("../fonts/Inter/interMedium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "inter";
-  src: url("../fonts/Inter/interBold.woff2") format("woff2");
-  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -2858,8 +2834,8 @@ body input:focus {
 
 /* styles for new page blocks */
 
-.new-fonts {
-  font-family: "Inter";
+.fonts {
+  font-family: "MontR";
   font-weight: 400px;
 }
 
@@ -2874,6 +2850,7 @@ body input:focus {
   font-size: 26px;
   color: #fff;
   margin-bottom: 8px;
+  font-family: "MontSB";
 }
 
 .offer__subtitle.new-offer__subtitle {
@@ -2917,9 +2894,6 @@ body input:focus {
   display: none;
 }
 
-@media (min-width: 768px) {
-}
-
 @media (min-width: 998px) {
   .offer__title.new-offer__title {
     font-size: 54px;
@@ -2929,6 +2903,7 @@ body input:focus {
   .offer__subtitle.new-offer__subtitle {
     font-size: 38px;
     margin-bottom: 35px;
+    max-width: 600px;
   }
 
   .offer__btn.new-offer__btn {
@@ -3075,7 +3050,7 @@ body input:focus {
 
 .cost__title {
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   color: #fff;
   margin-bottom: 8px;
@@ -3083,7 +3058,7 @@ body input:focus {
 
 .cost__subtitle {
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.5;
   background: linear-gradient(180deg, #ffbc3a 40%, rgba(255, 188, 58, 0) 100%);
@@ -3133,7 +3108,7 @@ body input:focus {
 
 .cost__item h3 {
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   color: #fff;
   line-height: 1.25;
@@ -3141,7 +3116,7 @@ body input:focus {
 
 .cost__item span {
   color: #777;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 1.25;
 }
@@ -3221,7 +3196,7 @@ body input:focus {
   }
 
   .cost__item span {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
   }
 }
@@ -3236,7 +3211,7 @@ body input:focus {
 
 .integration__title {
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   background: linear-gradient(180deg, #ffbc3a 40%, rgba(255, 188, 58, 0) 100%);
   background-clip: text;
@@ -3265,7 +3240,7 @@ body input:focus {
   background: #f5b538;
   color: #fff;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   min-width: 20px;
   height: 24px;
   display: flex;
@@ -3424,7 +3399,7 @@ body input:focus {
 
 .why__title {
   margin: 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   background: linear-gradient(180deg, #ffbc3a 40%, rgba(255, 188, 58, 0) 100%);
   background-clip: text;
@@ -3442,7 +3417,7 @@ body input:focus {
   padding: 0;
   margin: 0;
   padding-left: 30px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 2;
   color: rgba(255, 255, 255, 0.5);
@@ -3463,7 +3438,7 @@ body input:focus {
   }
 
   .why__title {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 34px;
     margin-bottom: 57px;
   }
@@ -3623,6 +3598,20 @@ body input:focus {
   .free-consultation__btn {
     font-size: 22px;
     padding: 16px 20px;
+    transition: all 300ms ease-in-out;
+  }
+
+  .free-consultation__btn:hover {
+    border: 2px solid #ffffff;
+    color: #fff;
+  }
+
+  .free-consultation__btn img {
+    transition: all 300ms ease-in-out;
+  }
+
+  .free-consultation__btn--call:hover img {
+    animation: rotating 3s linear infinite;
   }
 
   .free-consultation__btn > img {
